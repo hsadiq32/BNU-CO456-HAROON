@@ -1,0 +1,45 @@
+/* CSS Document */
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: 0px;
+	background-color: antiquewhite
+}
+.banner-home{
+	background-image: url("../images/IMG_20201025_214744.jpg");
+	background-position: center;
+	background-size:cover;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.banner-home h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 2em;
+	margin-top: 0;
+	color: aliceblue;
+}
+.banner-home a{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	font-size: 2em;
+	margin-top: 0;
+	color: aliceblue;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color: aqua;
+	display: block;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	margin: 2px;
+}
+
+nav ul a:hover{
+	background-color: aliceblue;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+}
