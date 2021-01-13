@@ -1,3 +1,25 @@
-.navbar-light .navbar-nav .nav-link {
+body {
+  background-image: url("../../assets/img/background.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+  background-color: rgb(0,2,9);
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+img {
+  width: 75px;
+}
+
+.footer-dark {
+  margin-top: 50px;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
