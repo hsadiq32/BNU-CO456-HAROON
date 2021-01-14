@@ -11,15 +11,32 @@
   margin-right: 20px;
 }
 
+@media (max-width:500px) {
+  .d-flex.flex-row.simple-slider {
+    background-image: none;
+  }
+}
+
 @media (max-width:767px) {
-  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
-    display: none;
+  .simple-slider .swiper-button-prev {
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next {
   }
 }
 
 @media (max-width:767px) {
   .simple-slider .swiper-slide {
-    height: 360px;
   }
+}
+
+.swiper-wrapper {
+  width: 486px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 32px;
+  height: 369px;
 }
 
