@@ -3,33 +3,68 @@ body {
   background-size: auto;
   background-repeat: repeat;
   background-color: rgb(0,2,9);
+  font-family: 'Apple Garamond';
+  color: white;
 }
 
 body {
-  margin: 0;
   background-color: #000000;
 }
 
-img {
-  width: 75px;
+.footer {
+  margin: 35px;
 }
 
-.footer-dark {
+.footer_img {
+  max-width: 80px;
+}
+
+.about_me_powerbook_map {
+  margin-top: 84px;
+}
+
+.about_me_map_container {
+  max-width: 400px;
+  margin: auto;
+  height: 300px;
+}
+
+.about_me_img_container {
+  margin-top: -2%;
+}
+
+.about_me_img_powerbook {
+  margin-top: -2%;
+  width: 100%;
+  pointer-events: none;
+  margin-top: -61%;
+}
+
+.about_me_map_frame {
+  width: 74%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 72%;
+}
+
+.about_me_textbox1{
+  color: #c9c8bd;
   margin-top: 50px;
+}
+
+.about_me_textbox2{
+  color: grey;
+  margin-top: 10px
+}
+
+.about_me_textbox3{
+  font-family: 'Times New Roman Cyr';
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
-.text-center {
-  font-family: 'Apple Garamond';
-  color: #c9c8bd;
-}
-
-.text-center {
-  font-family: 'Apple Garamond';
-  color: #ffffff;
-}
-
