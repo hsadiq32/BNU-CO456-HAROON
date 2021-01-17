@@ -19,6 +19,20 @@ body {
   max-width: 80px;
 }
 
+.index_centre{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index_centre_img{
+  max-width: 330px;
+}
+
+.index_textbox{
+  margin-top: 55px;
+}
+
 .about_me_powerbook_map {
   margin-top: 84px;
 }
@@ -62,6 +76,64 @@ body {
   margin-top: 2%;
   margin-right: 5%;
   margin-left: 5%;
+}
+
+.gallery_optionbox{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.gallery_option_img{
+  width: 300px;
+}
+
+.gallery_textbox{
+  margin-top: 24px;
+  color: white;
+}
+
+.gallery_sliderbox{
+  max-width: 600px;
+  width: auto;
+  margin-top: 40px;
+}
+
+.gallery_sliderbox{
+  max-width: 600px;
+  width: auto;
+  margin-top: 40px;
+}
+
+.projects_thumbnail{
+  max-width: 400px;
+}
+
+.projects_textbox1{
+color: #c9c8bd;
+margin-top: 50px;
+margin-bottom: 35px;
+}
+
+.projects_textbox2{
+color: #7c818a;
+margin-top: 26px;
+margin-bottom: 39px;
+}
+
+.projects_textbox3{
+  font-family: 'Times New Roman Cyr';
+}
+
+.projects_textbox4{
+  color: #7c818a;
+  margin-bottom: 37px;
+  margin-top: 19px;;
+}
+
+.projects_photos{
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 html, body {
