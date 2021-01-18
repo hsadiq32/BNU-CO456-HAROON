@@ -135,6 +135,12 @@ margin-bottom: 39px;
   margin-bottom: 15px;
 }
 
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
