@@ -138,9 +138,15 @@ margin-bottom: 39px;
 @media (max-width:767px) {
   .gallery_sliderbox .carousel-control-next, .gallery_sliderbox .carousel-control-prev {
     display: none;
-    background-image: none;
   }
 }
+
+@media (max-width:767px) {
+  .body {
+    background-image: url("assets/img/slider_window_mobile.png");
+  }
+}
+
 
 html, body {
   max-width: 100%;
