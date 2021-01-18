@@ -11,6 +11,7 @@ body {
   background-color: #000000;
 }
 
+/* formats footer spacing*/
 .footer {
   margin: 35px;
 }
@@ -33,16 +34,19 @@ body {
   margin-top: 55px;
 }
 
+/*Adds space to the navbar*/
 .about_me_powerbook_map {
   margin-top: 84px;
 }
 
+/*max-width makes elements responsive*/
 .about_me_map_container {
   max-width: 400px;
   margin: auto;
   height: 300px;
 }
 
+/*sizes img to map size- used percentage to keep values consistent on all DPIs*/
 .about_me_img_container {
   margin-top: -2%;
 }
@@ -60,6 +64,7 @@ body {
   height: 72%;
 }
 
+/*Unique presets for all text*/
 .about_me_textbox1{
   color: #c9c8bd;
   margin-top: 50px;
@@ -92,18 +97,14 @@ body {
   color: white;
 }
 
+/*creates border for gallery box*/
 .gallery_sliderbox{
   max-width: 600px;
   width: auto;
   margin-top: 40px;
 }
 
-.gallery_sliderbox{
-  max-width: 600px;
-  width: auto;
-  margin-top: 40px;
-}
-
+/*formats thumbnail*/
 .projects_thumbnail{
   max-width: 400px;
 }

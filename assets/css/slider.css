@@ -1,11 +1,10 @@
+/*slider fade function*/
 .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
-
+/*slider control function*/
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  /*opacity: .9;*/
 }
-
