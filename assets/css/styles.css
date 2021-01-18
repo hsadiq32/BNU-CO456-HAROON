@@ -28,10 +28,13 @@ body {
 
 .index_centre_img{
   max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .index_textbox{
   margin-top: 55px;
+  font-size: 2rem;
 }
 
 /*Adds space to the navbar*/
