@@ -1,6 +1,6 @@
 body {
   background-image: url("../../assets/img/background.jpg");
-  background-size: contain;
+  background-size: auto;
   background-repeat: repeat;
   background-color: rgb(0,2,9);
   font-family: 'Apple Garamond';
@@ -136,8 +136,9 @@ margin-bottom: 39px;
 }
 
 @media (max-width:767px) {
-  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  .gallery_sliderbox .carousel-control-next, .gallery_sliderbox .carousel-control-prev {
     display: none;
+    background-image: none;
   }
 }
 
