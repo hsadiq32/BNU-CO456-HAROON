@@ -141,7 +141,7 @@ margin-bottom: 39px;
 
 @media (max-width:767px)
 .body{
-  background-image: NONE;
+  background-size: contain;
 }
 
 html, body {
