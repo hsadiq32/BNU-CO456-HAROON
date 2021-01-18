@@ -71,16 +71,19 @@
   margin-bottom: 0;
 }
 
+/*website logo*/
 .navbar-light .navbar-brand {
   background-image: url("../../assets/img/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+/*mobile toggle icon*/
 .navbar-light .navbar-toggler-icon {
   background-image: url("../../assets/img/button.png");
 }
 
+/*navbar font*/
 .nav.navbar-nav.ml-auto {
   font-family: 'Arial Narrow';
 }
@@ -100,18 +103,3 @@
   width: 100px;
   padding-left: 0px;
 }
-
-.dropdown-item {
-  background-color: rgba(255,255,255,0);
-  padding-right: 0px;
-  width: 100px;
-  padding-left: 0px;
-}
-
-.dropdown-item {
-  background-color: rgba(255,255,255,0);
-  padding-right: 0px;
-  width: 100px;
-  padding-left: 0px;
-}
-
