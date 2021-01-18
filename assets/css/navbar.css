@@ -1,0 +1,105 @@
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navigation-clean .navbar-collapse {
+  border-top-color: #ddd;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.66);
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+  background-color: transparent;
+}
+
+.navigation-clean .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: none;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #ffffffa9;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
+  background: rgba(255,0,0,0);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  background-color: rgba(255,255,255,0);
+}
+
+.navigation-clean {
+  background: #fff;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+/*website logo*/
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*mobile toggle icon*/
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../../assets/img/button.png");
+}
+
+/*navbar font*/
+.nav.navbar-nav.ml-auto {
+  font-family: 'Arial Narrow';
+}
+
+.dropdown-menu.dropdown-menu-right.text-break.text-left {
+  background-color: rgba(34,34,34,0);
+  background-size: contain;
+  background-repeat: space;
+  width: 100px;
+  height: 136px;
+  margin-left: 15px;
+}
+
+.dropdown-item {
+  background-color: rgba(255,255,255,0);
+  padding-right: 0px;
+  width: 100px;
+  padding-left: 0px;
+}
