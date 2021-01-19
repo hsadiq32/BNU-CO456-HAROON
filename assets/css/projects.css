@@ -1,0 +1,32 @@
+
+/*formats thumbnail*/
+.projects_thumbnail{
+  max-width: 400px;
+}
+
+.projects_textbox1{
+color: #c9c8bd;
+margin-top: 50px;
+margin-bottom: 35px;
+}
+
+.projects_textbox2{
+color: #7c818a;
+margin-top: 26px;
+margin-bottom: 39px;
+}
+
+.projects_textbox3{
+  font-family: 'Times New Roman Cyr';
+}
+
+.projects_textbox4{
+  color: #7c818a;
+  margin-bottom: 37px;
+  margin-top: 19px;;
+}
+
+.projects_photos{
+  width: 100%;
+  margin-bottom: 15px;
+}

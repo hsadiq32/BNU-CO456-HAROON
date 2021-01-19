@@ -1,0 +1,27 @@
+.gallery_optionbox{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.gallery_option_img{
+  width: 300px;
+}
+
+.gallery_textbox{
+  margin-top: 24px;
+  color: white;
+}
+
+/*creates border for gallery box*/
+.gallery_sliderbox{
+  max-width: 600px;
+  width: auto;
+  margin-top: 40px;
+}
+
+@media (max-width:767px) {
+  .gallery_sliderbox .carousel-control-next, .gallery_sliderbox .carousel-control-prev {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+.index_centre{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index_centre_img{
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index_textbox{
+  margin-top: 55px;
+  font-size: 2rem;
+}

@@ -1,0 +1,47 @@
+/*Adds space to the navbar*/
+.about_me_powerbook_map {
+  margin-top: 84px;
+}
+
+/*max-width makes elements responsive*/
+.about_me_map_container {
+  max-width: 400px;
+  margin: auto;
+  height: 300px;
+}
+
+/*sizes img to map size- used percentage to keep values consistent on all DPIs*/
+.about_me_img_container {
+  margin-top: -2%;
+}
+
+.about_me_img_powerbook {
+  width: 100%;
+  pointer-events: none;
+  margin-top: -61%;
+}
+
+.about_me_map_frame {
+  width: 74%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 72%;
+}
+
+/*Unique presets for all text*/
+.about_me_textbox1{
+  color: #c9c8bd;
+  margin-top: 50px;
+}
+
+.about_me_textbox2{
+  color: grey;
+  margin-top: 10px
+}
+
+.about_me_textbox3{
+  font-family: 'Times New Roman Cyr';
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
