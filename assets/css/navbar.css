@@ -74,14 +74,14 @@
 
 /*website logo*/
 .navbar-light .navbar-brand {
-  background-image: url("../../assets/img/logo.png");
+  background-image: url("../../assets/img/logo.webp");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 /*mobile toggle icon*/
 .navbar-light .navbar-toggler-icon {
-  background-image: url("../../assets/img/button.png");
+  background-image: url("../../assets/img/button.webp");
 }
 
 /*navbar font*/
