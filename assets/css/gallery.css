@@ -8,9 +8,14 @@
   width: 300px;
 }
 
+
 .gallery_textbox{
   margin-top: 24px;
   color: white;
+}
+
+.gallery_textbox1{
+  font-family: 'Times New Roman Cyr';
 }
 
 /*creates border for gallery box*/

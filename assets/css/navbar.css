@@ -1,9 +1,11 @@
-.navigation-clean .navbar-toggler {
+.navigation-clean .navbar-toggler .navbar-collapse {
   border-color: #ddd;
 }
 
-.navigation-clean .navbar-collapse {
-  border-top-color: #ddd;
+/*website logo*/
+.navbar_img{
+  width: 100px;
+  repeat: None;
 }
 
 .navigation-clean.navbar .navbar-nav .nav-link {
@@ -72,13 +74,6 @@
   margin-bottom: 0;
 }
 
-/*website logo*/
-.navbar-light .navbar-brand {
-  background-image: url("../../assets/img/logo.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 /*mobile toggle icon*/
 .navbar-light .navbar-toggler-icon {
   background-image: url("../../assets/img/button.webp");
@@ -88,18 +83,16 @@
 .nav.navbar-nav.ml-auto {
   font-family: 'Arial Narrow';
 }
-
+/*desktop dropdown menu*/
 .dropdown-menu.dropdown-menu-right.text-break.text-left {
-  background-color: rgba(34,34,34,0);
-  background-size: contain;
-  background-repeat: space;
+  background-color: transparent;
   width: 100px;
   height: 136px;
   margin-left: 15px;
 }
 
 .dropdown-item {
-  background-color: rgba(255,255,255,0);
+  background-color: transparent;
   padding-right: 0px;
   width: 100px;
   padding-left: 0px;
