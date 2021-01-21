@@ -79,7 +79,7 @@ input[type=email] {
 }
 
 input[type=email]:focus {
-  border-bottom: 2px solid #ededed;
+  border-bottom: 4px solid black;
 }
 
 .contact_message{
