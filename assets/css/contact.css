@@ -1,0 +1,93 @@
+.contact_textbox{
+  margin-top: 24px;
+  color: white;
+}
+
+.contactme {
+  padding: 80px;
+}
+
+.contactme .contact_box{
+  background-color: transparent;
+  background-image: url("../../assets/img/contact_me.webp");
+  width: 330px;
+  height: 430px;
+}
+
+.contactme form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  color: #505e6c;
+}
+
+.contactme form .btn {
+  background-image: url("../../assets/img/contact_me_button.webp");
+  width: 50px;
+  height: 23px;
+  border: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.contactme form .btn:hover {
+  opacity: 1;
+}
+
+.contactme form .btn-primary {
+  background-color: #055ada !important;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.contact_email{
+  width: 304px;
+  margin-left: -26px;
+  margin-top: -12px;
+}
+
+.contact_email_textbox{
+  width: 302px;
+  margin-top: 23%;
+  margin-bottom: -1px;
+  height: 36px;
+}
+
+
+input[type=email] {
+  width: 302px;
+  margin-top: 23%;
+  margin-bottom: -1px;
+  height: 36px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=email]:focus {
+  border-bottom: 2px solid #ededed;
+}
+
+.contact_message{
+  width: 302px;
+  margin-left: -26px;
+  margin-top: 19px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.contact_button{
+  margin-left: -25px;
+  margin-top: -12px;
+}
