@@ -104,10 +104,19 @@ input[type=email]:focus {
   height: 430px;
 }
 
-.contact_container{
+.contact_column{
   margin-top: 2%;
-  margin-left: 45px;
-  margin-right: 45px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media only screen and (max-width: 1150px) {
+  .contact_column {
+    width: 100%
+  }
 }
 
 #map {
@@ -117,4 +126,4 @@ input[type=email]:focus {
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
-}s
+}
